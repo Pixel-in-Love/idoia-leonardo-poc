@@ -14,7 +14,12 @@ header {
 
 .hero-img {
   flex: 1;
-  padding-top: calc(37px + 64px);
+  margin-top: calc(37px + 80px);
+  max-height: 100%;
+  background-image: url(bg2x.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -78,6 +83,12 @@ nav {
   height: 100%;
 }
 
+.top {
+  color: #ffffff;
+  justify-content: start;
+  margin-left: 0.5rem;
+}
+
 li {
   cursor: pointer
 }
@@ -89,5 +100,9 @@ li {
 
   .main-bar {
     height: 64px;
+  }
+
+  .hero-img {
+    margin-top: calc(37px + 64px);
   }
 }
